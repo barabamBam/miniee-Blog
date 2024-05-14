@@ -61,21 +61,14 @@ git push
 
 ## 추가 git 명령어
 
-| 명령어 | 옵션 | 설명 |
-| --- | --- | --- |
-| git config --global | init.defaultbBranch main
-
-user.email "이메일"
-http://user.name/ 깃허브 아이디 | 기본 브랜치를 main으로 설정
-
-GitHub 연결 |
-| git config | —list
-—get user. | 연결 상태 확인
-연결된 계정 확인 |
-| git init |  | 로컬에 레포지토리 연결 |
-| git status |  | 파일 상태 확인 |
-| git diff |  | add 명령어 사용 전 최근 커밋과의 변경사항 확인 |
-| git log |  | 커밋 히스토리 조회 |
+| 명령어 | 옵션                                                                               | 설명                                 |
+| --- |----------------------------------------------------------------------------------|------------------------------------|
+| git config --global | init.defaultbBranch main <br/ >user.email "이메일" <br /> http://user.name/ 깃허브 아이디 | 기본 브랜치를 main으로 설정 <br / >GitHub 연결 |
+| git config | —list <br /> —get user.                                                          | 연결 상태 확인 <br / > 연결된 계정 확인         |
+| git init |                                                                                  | 로컬에 레포지토리 연결                       |
+| git status |                                                                                  | 파일 상태 확인                           |
+| git diff |                                                                                  | add 명령어 사용 전 최근 커밋과의 변경사항 확인       |
+| git log |                                                                                  | 커밋 히스토리 조회                         |
 - git status에서 상태의 의미
     - Untracked: 한번도 `git add` 하지 않은 상태
     - Tracked: git이 관리 중인 파일

@@ -39,22 +39,22 @@
   > * 출처: https://cloud.google.com/solutions/dynamic-website?hl=ko, https://blog.naver.com/sincc0715/221899757173
 >
 - 동적인 웹을 위해 자바스크립트가 할 수 있는 일은?
-    1. 데이터 저장
-        - 저장 공간: var, let, const
-        - 저장 형태: 숫자, 문자열, 빈 값(null, undefined), boolean, 배열, 객체
-        - 코드 뭉치: 함수
-    2. 값 계산: 사칙연산, 논리연산, 조건문, 반복문, 자료형의 내장함수
-    3. 결과 반영
-        - DOM(Document Object Model) API: HTML 문서의 구조를 나타내는 표기법
-        - BOM(Browser Object Model) API: 웹 브라우저 자체를 객체들로 표현하는 방식
+  1. 데이터 저장
+     - 저장 공간: var, let, const
+     - 저장 형태: 숫자, 문자열, 빈 값(null, undefined), boolean, 배열, 객체
+     - 코드 뭉치: 함수
+  2. 값 계산: 사칙연산, 논리연산, 조건문, 반복문, 자료형의 내장함수
+  3. 결과 반영
+     - DOM(Document Object Model) API: HTML 문서의 구조를 나타내는 표기법
+     - BOM(Browser Object Model) API: 웹 브라우저 자체를 객체들로 표현하는 방식
 
-       ![출처: https://it-eldorado.tistory.com/58, https://sanctacrux.tistory.com/2027](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/0a2d1b73-0051-47df-a28a-7ca380a05ebb/Untitled.png)
+        ![출처: https://it-eldorado.tistory.com/58, https://sanctacrux.tistory.com/2027](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/0a2d1b73-0051-47df-a28a-7ca380a05ebb/Untitled.png)
 
-       출처: https://it-eldorado.tistory.com/58, https://sanctacrux.tistory.com/2027
+        출처: https://it-eldorado.tistory.com/58, https://sanctacrux.tistory.com/2027
 
-    4. 다른 컴퓨터와 통신: Ajax
+  4. 다른 컴퓨터와 통신: Ajax
 
-       : 웹 서버와 비동기적으로 데이터를 교환하고 조작을 도와주는 웹 개발 기법 → 비동기적: 웹페이지를 리로드하지 않고 데이터를 불러오는 방식
+     : 웹 서버와 비동기적으로 데이터를 교환하고 조작을 도와주는 웹 개발 기법 → 비동기적: 웹페이지를 리로드하지 않고 데이터를 불러오는 방식
 
        > 출처: https://ko.wikipedia.org/wiki/Ajax, [https://velog.io/@surim014/AJAX란-무엇인가](https://velog.io/@surim014/AJAX%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
 >
@@ -115,11 +115,11 @@
 
   그러나 **`const`**를 사용하는 것이 더 좋은 경우가 많습니다.
 
-    1. 의도하지 않은 값의 변경을 방지할 수 있습니다.
+  1. 의도하지 않은 값의 변경을 방지할 수 있습니다.
 
        **`const`**를 사용하면 변수의 값이 한 번 할당되면 변경될 수 없습니다. 따라서 의도하지 않은 값의 변경을 방지할 수 있습니다. 이것은 코드의 예측 가능성을 높이며, 따라서 버그를 줄일 수 있습니다.
 
-    2. 가독성을 높일 수 있습니다.
+  2. 가독성을 높일 수 있습니다.
 
        **`const`**를 사용하면 다른 개발자들이 변수의 값이 변경될 가능성이 없다는 것을 빠르게 인지할 수 있으며, 반드시 초기화를 해야하기 때문에 어떤 데이터가 사용되는지 초기에 확인 할 수 있습니다. 이것은 코드의 가독성을 높이고 유지 보수성을 향상시킵니다.
 
