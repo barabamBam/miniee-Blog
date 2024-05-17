@@ -150,7 +150,7 @@ console.log(arr[1][0][1]);
 
     <pre>
     🤔 map 🆚 filter
-        <section>
+        <code>
         ```jsx
         // map
         const arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -164,7 +164,7 @@ console.log(arr[1][0][1]);
         console.log(newArr);
         VM197:4 (5) [2, 4, 6, 8, 10]
         ```
-        </section>
+        </code>
     </pre>
 
     1. includes
