@@ -150,21 +150,21 @@ console.log(arr[1][0][1]);
 
     <pre>
     🤔 map 🆚 filter
-
-    ```jsx
-    // map
-    const arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const newArr = arr11.map(el => el % 2 === 0);
-    console.log(newArr);
-    VM209:4 (10) [false, true, false, true, false, true, false, true, false, true];
-    
-    // filter
-    const arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const newArr = arr11.filter(el => el % 2 === 0);
-    console.log(newArr);
-    VM197:4 (5) [2, 4, 6, 8, 10]
-    ```
-
+        <section>
+        ```jsx
+        // map
+        const arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const newArr = arr11.map(el => el % 2 === 0);
+        console.log(newArr);
+        VM209:4 (10) [false, true, false, true, false, true, false, true, false, true];
+        
+        // filter
+        const arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const newArr = arr11.filter(el => el % 2 === 0);
+        console.log(newArr);
+        VM197:4 (5) [2, 4, 6, 8, 10]
+        ```
+        </section>
     </pre>
 
     1. includes
