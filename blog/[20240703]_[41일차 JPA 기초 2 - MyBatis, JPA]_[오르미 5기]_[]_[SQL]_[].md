@@ -1,4 +1,5 @@
-[[20240702]_[40일차 JPA 기초 1 - JDBC, jdbcTemplate]_[오르미 5기]_[]_[SQL]_[].md](%5B20240702%5D_%5B40%C0%CF%C2%F7%20JPA%20%B1%E2%C3%CA%201%20-%20JDBC%2C%20jdbcTemplate%5D_%5B%BF%C0%B8%A3%B9%CC%205%B1%E2%5D_%5B%5D_%5BSQL%5D_%5B%5D.md)모든 출처: 이스트소프트 백엔드 개발자 오르미 5기
+모든 출처: 이스트소프트 백엔드 개발자 오르미 5기
+
 
 <aside>
 🤔 Mybatis 🆚 JPA (ORM)
