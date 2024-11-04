@@ -3,7 +3,7 @@
 If you have any questions, opportunities, or just want to connect, feel free to reach out! I’m always open to new connections and collaborations.
 
 
-<hr style="background-color: rgb(139 203 148); border-width: 3px; border-radius: 0.5rem; margin-top: 40px;">
+<hr style="border-color: rgb(139 203 148); border-width: 3px; border-radius: 0.5rem; margin-top: 40px;">
 <div style="color: #474747 ; display: flex; gap: 100px; justify-content: center;">
 
   <div style="padding: 20px; text-align: center; width: fit-content;">
@@ -18,7 +18,7 @@ If you have any questions, opportunities, or just want to connect, feel free to 
   </div>
 
 </div>
-<hr style="background-color: rgb(139 203 148); border-width: 3px; border-radius: 0.5rem; margin-bottom: 40px;">
+<hr style="border-color: rgb(139 203 148); border-width: 3px; border-radius: 0.5rem; margin-bottom: 40px;">
 
 
 Looking forward to hearing from you! 😊
